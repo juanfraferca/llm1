@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "llm1"
+version = "0.1.0"
+description = "This project will power the talk about LLMs"
+authors = ["Marta Diaz <tobedone@tobedone.com>, Juan Fra Fernandez <juanfraferca@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
